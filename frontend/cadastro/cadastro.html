@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro de usuários</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de usuários</h1>
+    </header>
+    <main>
+        <div class="dados">
+            <div class="usuario-header">
+                <h2>Novo Usuário</h2>
+            </div>
+            <form class="usuario" action="../../backend/cadastrar.php" method="post" id="form-cadastro">
+                <input type="text" placeholder="Nome" name="nome" id="nome" required>
+                <input type="email" placeholder="E-mail" name="email" required id="email">
+                <input type="password" placeholder="Senha" name="senha" required minlength="6" id="senha">
+                <input type="password" placeholder="Repetir Senha" required minlength="6" id="repetir-senha">
+                <button class="btn-cadastrar" type="submit">Cadastrar</button>
+                <span class="status"></span>
+            </form>
+        </div>
+    </main>
+    <script src="cadastro.js"></script>
+</body>
+</html>
