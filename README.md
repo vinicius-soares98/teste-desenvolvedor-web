@@ -8,3 +8,5 @@ Sistema web simples e funcional de cadastro de usuários contendo frontend e bac
 <br/>5 - Acesse o diretório do sistema por algum navegador (http://localhost/Teste_Chromasoft/)
 <br/>6 - Crie o banco de dados utilizando o arquivo criarBD.php que está na pasta criar_banco (http://localhost/Teste_Chromasoft/criar_banco/criarBD.php)
 <br/>7 - Agora é só navegar pelas páginas e testar as funcionalidades!
+## Funcionalidades
+O sistema é um controle básico e bem simples de usuários com algumas validações, você pode cadastrar novos usuarios em http://localhost/Teste_Chromasoft/frontend/cadastro/cadastro.html e ver a lista de usuarios em http://localhost/Teste_Chromasoft/frontend/lista_de_usuarios/index.html tendo também a opção de editar e excluir.
